@@ -26,7 +26,7 @@ namespace CollatzSeq
             }
             if (number < 0)
             {
-                Console.WriteLine("Input must me an integer number greater than -1");
+                Console.WriteLine("Input must be an integer number greater than -1");
                 return;
             }
 

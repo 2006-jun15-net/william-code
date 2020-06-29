@@ -1,0 +1,14 @@
+[
+  {
+    "Name": "Lebron James",
+    "FreeThrowPercentage": 99.0,
+    "PointsPerGame": 100.0,
+    "ArcLocations": {}
+  },
+  {
+    "Name": null,
+    "FreeThrowPercentage": 0.0,
+    "PointsPerGame": 0.0,
+    "ArcLocations": null
+  }
+]
