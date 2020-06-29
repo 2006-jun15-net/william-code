@@ -38,4 +38,8 @@ INSERT INTO Orders (ProductID, CustomerID) VALUES
 ------ Get Tina's orders
 SELECT * FROM Orders WHERE CustomerID = (SELECT CustomerID FROM Customers WHERE FirstName='Tina' AND LastName='Smith')
 
------- 
+------ Report all revenue
+--
+SELECT SUM(Price) FROM Orders WHERE Name='iPhone'
+----- Set iPhone price to $250
+--
